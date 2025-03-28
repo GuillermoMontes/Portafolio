@@ -5,6 +5,8 @@
 	font-family: "Poppins", sans-serif;
 }
 
+
+
 body {
 	overflow-x: hidden;
     background: var(--section-bgd);
@@ -29,6 +31,25 @@ body {
 	--light-blue: rgb(156, 183, 255);
 	--section-bgd: #00021a;
 }
+
+.about,
+.skills,
+.services,
+.works,
+.contact {
+	background-color: var(--section-bgd);
+	color: var(--nav-grey);
+	width: 100%;
+}
+
+.container {
+	padding: 4rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
 
 
   @keyframes pageLoad {
