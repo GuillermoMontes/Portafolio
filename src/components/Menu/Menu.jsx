@@ -4,8 +4,16 @@ import SobreMi from "../Sobre Mi/SobreMi"
 import Skills from "../Skills/Skills"
 import Servicios from "../Servicios/Servicios"
 import Contacto from "../Contacto/Contacto"
+import { useContext } from "react";
+import { dataContext } from "../contex"
 
-const Menu = ({nav, handleNav, cerrarNav}) => {
+
+const Menu = () => {
+  
+  const { cerrarNav } = useContext(dataContext);
+
+ 
+
   return (
     <div onClick={cerrarNav}>
       <SeccionPrincipal/>

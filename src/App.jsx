@@ -3,8 +3,13 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { motion } from "framer-motion";
 import './App.css'
 import PagMenu from "./components/PagMenu/PagMenu";
+import DataProvider from "./components/contex";
+
 
 const App = ()=> {
+
+  
+
   // Stado
   const [cargando, setCargando] = useState(true);
   useEffect(() => {
@@ -36,12 +41,16 @@ const App = ()=> {
         </svg>        
         <motion.p variants={cargaText} initial='hidden' animate='visible' className="text">Guillermo Montes</motion.p>
       </div>
+      
     </div>
     :
     <div>
-      <Router>
-        <PagMenu/>
-      </Router>
+      <DataProvider>
+        <Router>
+          <PagMenu/>
+        </Router>
+      </DataProvider>
+
     </div>
   )
 }
