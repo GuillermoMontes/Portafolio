@@ -4,7 +4,7 @@ import { dataContext } from "../contex";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
 import { Link } from 'react-scroll';
-import perfilImg from '../../image/profile_me.jpg'
+import perfilImg from '../../image/fotoPerfil4.jpg'
 import NavLinks from './NavLinks';
 import { FaHome, FaLaptop } from "react-icons/fa";
 import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";

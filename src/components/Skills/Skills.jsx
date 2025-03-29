@@ -1,8 +1,42 @@
+import { motion } from "framer-motion";
+import { SkillsData } from "../../data/skillsData";
+import './Skills.css'
+
 
 
 const Skills = () => {
+
+  const skillEffect = {
+		y: 0,
+		opacity: 1,
+		transition: {
+			duration: 1.4,
+		},
+	};
+
   return (
-    <div>Skills</div>
+    <div className='skills' id='skills'>
+    <div className='container'>
+      <motion.div
+        whileInView={skillEffect}
+        initial={{ y: "-80px", opacity: 0 }}
+        className='heading'>
+        <p className='heading-sub-text'>Con qué trabajo</p>
+        <p className='heading-text'>Mis Skills</p>
+      </motion.div>
+      <motion.div
+        whileInView={skillEffect}
+        className='skills-box'
+        initial={{ y: "-80px", opacity: 0 }}>
+        {SkillsData.map((el, index) => (
+          <div className='skill-card' key={index}>
+            <div className='skill-icon'>{el.icon}</div>
+            <small className='skill-desc'>{el.name}</small>
+          </div>
+        ))}
+      </motion.div> 
+    </div>
+  </div>
   )
 }
 

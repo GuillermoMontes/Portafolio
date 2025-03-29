@@ -140,3 +140,56 @@
 	margin: 0 0.5rem;
 	font-size: 60%;
 }
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+	.tabs {
+	  flex-wrap: wrap;
+	}
+  
+	.tab {
+	  margin: 0.5rem;
+	}
+  }
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 550px) {
+	.work-desc {
+		font-size: 60%;
+	}
+
+	.work-folder {
+		font-size: 1.5rem;
+	}
+
+	.work-git,
+	.work-link {
+		font-size: 1.2rem;
+	}
+
+	.work-title {
+		font-size: 1.2rem;
+	}
+
+	.bottom-work small {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.works-card {
+		width: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
+}

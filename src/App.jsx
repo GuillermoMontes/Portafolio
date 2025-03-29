@@ -34,7 +34,7 @@ const App = ()=> {
  
   return (
     cargando ? 
-    <div className="bg-body h-screen w-screen flex flex-col justify-center items-center overflow-hidden">
+    <div className="bg-body h-screen w-screen flex flex-col justify-center items-center overflow-hidden poppins-thin">
       <div className="relative">
         <svg height="60" width="320">
           <rect className="shape" height="60" width="320" />
@@ -44,7 +44,7 @@ const App = ()=> {
       
     </div>
     :
-    <div>
+    <div className="poppins-thin">
       <DataProvider>
         <Router>
           <PagMenu/>

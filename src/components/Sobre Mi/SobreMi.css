@@ -34,7 +34,7 @@
 
 .about-img img {
     width: 300px;
-    height: 300px;
+    height: 450px;
     border-radius: 5px;
     filter: brightness(100%);
     cursor: pointer;
@@ -46,4 +46,38 @@
 
 .about-img img:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
+    .split-about {
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-img img {
+        width: auto;
+        height: 250px;
+    }
+
+    .heading-sub-text {
+        font-size: 90%;
+    }
+    
+    .heading-text {
+        font-size: 2rem;
+    }
+
+    .about-content {
+        font-size: .8rem;
+    }
 }

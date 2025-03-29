@@ -110,7 +110,7 @@
 .menu-icon {
 	position: fixed;
 	top: 1rem;
-	right: 1rem;
+	right: 4rem;
 }
 
 .menu-icon:hover {
@@ -127,4 +127,44 @@
 	width: 100%;
 	background-color: black;
 	filter: opacity(0.30);
+}
+
+@media screen and (max-width: 768px) {
+	.menu-icon,
+	.to-top-icon {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.hero-intro {
+		font-size: 5rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.hero-section {
+		padding: 3rem 1rem;
+		white-space: normal;
+	}
+
+	.hero-intro {
+		font-size: 3rem;
+	}
+
+	.hero-desc,
+	.hero-desc-sub {
+		font-size: 1rem;
+	}
+
+	.hero-contact {
+		font-size: 80%;
+	}
+
+	.menu-icon,
+	.to-top-icon {
+		font-size: 1rem;
+		padding: 0.6rem;
+		background-color: var(--nav-blue);
+	}
 }
