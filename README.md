@@ -13,4 +13,4 @@ Otras librerias utilizadas:
 **emailsjs** <br>
 
 ##### Deploy utilizado: **Vercel** 
-link:  [ListaDeTareas](https://lista-tareas-ochre.vercel.app/)
+link:  [Mi Portafolio](https://mi-portafolio-gm.vercel.app/)
