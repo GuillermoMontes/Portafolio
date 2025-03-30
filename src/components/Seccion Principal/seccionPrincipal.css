@@ -1,5 +1,5 @@
 .hero-section {
-	background-image: url("../../image/azul_text.jpg");
+	background-image: url("../../image/Fondo-2.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -110,7 +110,7 @@
 .menu-icon {
 	position: fixed;
 	top: 1rem;
-	right: 4rem;
+	right: 2rem;
 }
 
 .menu-icon:hover {
