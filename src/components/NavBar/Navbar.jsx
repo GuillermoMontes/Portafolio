@@ -1,4 +1,4 @@
-import './NavBar.css'
+import './Navbar.css'
 import { useContext } from "react";
 import { dataContext } from "../contex";
 import { motion } from "framer-motion";
