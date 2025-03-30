@@ -96,8 +96,8 @@ const SeccionPrincipal = () => {
 				initial='hidden'
 				whileInView='visible'>
 				<a
-					href='#'
-					download='#'
+					href='CV_Guillermo_Montes.pdf'
+					download='CV_Guillermo_Montes'
 					className='hero-contact'>
 					Descargar CV <BiDownload className='cv-icon' />
 				</a>

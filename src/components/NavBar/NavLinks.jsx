@@ -9,7 +9,7 @@ const NavLinks = ({handleNav}) => {
             <li onClick={handleNav} ><a  href="https://wa.me/1160366102?text=I%27m%20interested%20in%20your%20car%20for%20sale" target='_blank' className='nav-link'><FaWhatsapp /></a></li>
             <li onClick={handleNav} ><Link  to="https://www.linkedin.com/in/guillermo-montes-723890164/" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
             <li onClick={handleNav} ><Link  to="https://github.com/GuillermoMontes" target='_blank' className='nav-link'><BsGithub /></Link></li>
-            <li onClick={handleNav} ><a  href="#" download='#' target='_blank' className='nav-link' rel="noreferrer"><TbFileCv /></a></li>
+            <li onClick={handleNav} ><a  href="CV_Guillermo_Montes.pdf" download='CV_Guillermo_Montes' target='_blank' className='nav-link' rel="noreferrer"><TbFileCv /></a></li>
       </ul>
       )
 }
