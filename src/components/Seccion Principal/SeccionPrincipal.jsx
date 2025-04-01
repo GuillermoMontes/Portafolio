@@ -62,7 +62,7 @@ const SeccionPrincipal = () => {
   return (
     <div className='hero-section' name='home' id='home'>
 
-		<div className='hero-overlay'></div>
+		
 		
 
 		{/* Boton menu */}
@@ -96,7 +96,7 @@ const SeccionPrincipal = () => {
 				initial='hidden'
 				whileInView='visible'>
 				<a
-					href='CV_Guillermo_Montes.pdf'
+					href='GMontes_CV.pdf'
 					download='CV_Guillermo_Montes'
 					className='hero-contact'>
 					Descargar CV <BiDownload className='cv-icon' />

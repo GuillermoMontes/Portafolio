@@ -110,7 +110,7 @@
 .menu-icon {
 	position: fixed;
 	top: 1rem;
-	right: 2rem;
+	right: 1.3rem;
 }
 
 .menu-icon:hover {
@@ -121,13 +121,13 @@
 	margin-left: 0.5rem;
 }
 
-.hero-overlay {
+/* .hero-overlay {
 	position: absolute;
 	height: 100vh;
 	width: 100%;
 	background-color: black;
 	filter: opacity(0.30);
-}
+} */
 
 @media screen and (max-width: 768px) {
 	.menu-icon,

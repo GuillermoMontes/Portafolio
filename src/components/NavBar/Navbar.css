@@ -33,8 +33,8 @@
 }
 
 .img__cover {
-	height: 110px;
-	width: 115px;
+	height: 120px;
+	width: 110px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -42,8 +42,8 @@
     object-position: bottom;
 }
 .profile-pic-small {
-	height: 90%;
-	width: 80%;
+	height: 100%;
+	width: 100%;
 	border-radius: 50%;
 	margin-bottom: 1rem;
 	border: 5px solid var(--nav-deep-blue);
